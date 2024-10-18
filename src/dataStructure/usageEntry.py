@@ -1,8 +1,8 @@
 from typing import Optional
 
-from dataStructure.report import Report
-from helpers.api import report
-from helpers.calculator import CostCalculator
+from src.dataStructure.report import Report
+from src.helpers.api import report
+from src.helpers.calculator import CostCalculator
 
 
 class UsageEntry:

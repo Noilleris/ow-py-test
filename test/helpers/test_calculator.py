@@ -1,5 +1,5 @@
 import unittest
-from helpers.calculator import *
+from src.helpers.calculator import *
 
 class TestCostCalculator(unittest.TestCase):
 

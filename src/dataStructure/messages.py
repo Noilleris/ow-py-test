@@ -1,6 +1,6 @@
 from typing import List
 
-from dataStructure.message import Message
+from src.dataStructure.message import Message
 
 KEY = "messages"
 

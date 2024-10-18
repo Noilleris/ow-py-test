@@ -1,6 +1,6 @@
 from requests import RequestException, get
 
-from helpers.constants import CURRENT_PERIOD, REPORT
+from src.helpers.constants import CURRENT_PERIOD, REPORT
 
 def current_period():
     try:

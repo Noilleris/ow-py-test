@@ -1,7 +1,7 @@
 import unittest
 import requests_mock
-from helpers.constants import CURRENT_PERIOD, REPORT
-from helpers.api import current_period, report
+from src.helpers.constants import CURRENT_PERIOD, REPORT
+from src.helpers.api import current_period, report
 
 class TestAPIRequests(unittest.TestCase):
 

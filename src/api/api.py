@@ -1,10 +1,10 @@
 from flask import Flask, jsonify
 
-from dataStructure.messages import Messages
-from dataStructure.usage import Usage
+from src.dataStructure.messages import Messages
+from src.dataStructure.usage import Usage
 
-from helpers.api import current_period
-from flask_cors import CORS, cross_origin
+from src.helpers.api import current_period
+from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app, support_credentials=True)

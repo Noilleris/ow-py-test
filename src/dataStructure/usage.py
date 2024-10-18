@@ -1,7 +1,7 @@
 from typing import List
 
-from dataStructure.message import Message
-from dataStructure.usageEntry import UsageEntry
+from src.dataStructure.message import Message
+from src.dataStructure.usageEntry import UsageEntry
 
 class Usage:
     def __init__(self, messages: List[Message]):
